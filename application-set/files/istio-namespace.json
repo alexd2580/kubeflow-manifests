@@ -1,4 +1,4 @@
 {
-    "name": "istio-namespace",
-    "path": "common/istio-1-17/istio-namespace/base"
+    "appName": "istio-namespace",
+    "appPath": "common/istio-1-17/istio-namespace/base"
 }

@@ -1,4 +1,4 @@
 {
-    "name": "cluster-local-gateway",
-    "path": "common/istio-1-17/cluster-local-gateway/base"
+    "appName": "cluster-local-gateway",
+    "appPath": "common/istio-1-17/cluster-local-gateway/base"
 }

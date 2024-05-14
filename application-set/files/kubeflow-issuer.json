@@ -1,4 +1,4 @@
 {
-    "name": "kubeflow-issuer",
-    "path": "common/cert-manager/kubeflow-issuer/base"
+    "appName": "kubeflow-issuer",
+    "appPath": "common/cert-manager/kubeflow-issuer/base"
 }

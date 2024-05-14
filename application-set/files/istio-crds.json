@@ -1,4 +1,4 @@
 {
-    "name": "istio-crds",
-    "path": "common/istio-1-17/istio-crds/base"
+    "appName": "istio-crds",
+    "appPath": "common/istio-1-17/istio-crds/base"
 }

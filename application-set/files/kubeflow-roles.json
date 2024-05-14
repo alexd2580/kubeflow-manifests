@@ -1,4 +1,4 @@
 {
-    "name": "kubeflow-roles",
-    "path": "common/kubeflow-roles/base"
+    "appName": "kubeflow-roles",
+    "appPath": "common/kubeflow-roles/base"
 }

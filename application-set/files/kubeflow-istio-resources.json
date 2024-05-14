@@ -1,4 +1,4 @@
 {
-    "name": "kubeflow-istio-resources",
-    "path": "common/istio-1-17/kubeflow-istio-resources/base"
+    "appName": "kubeflow-istio-resources",
+    "appPath": "common/istio-1-17/kubeflow-istio-resources/base"
 }

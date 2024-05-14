@@ -1,4 +1,4 @@
 {
-    "name": "kubeflow-namespace",
-    "path": "common/kubeflow-namespace/base"
+    "appName": "kubeflow-namespace",
+    "appPath": "common/kubeflow-namespace/base"
 }

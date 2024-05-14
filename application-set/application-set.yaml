@@ -14,13 +14,13 @@ spec:
       - path: "application-set/*.json"
   template:
     metadata:
-      name: '{{.name}}'
+      name: '{{.appName}}'
     spec:
       project: default
       source:
         repoURL: https://github.com/alexd2580/kubeflow-manifests.git
         targetRevision: v1.8.1
-        path: '{{.path}}'
+        path: '{{.appPath}}'
       destination:
         server: https://kubernetes.default.svc
         namespace: argocd

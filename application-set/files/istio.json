@@ -1,4 +1,4 @@
 {
-    "name": "istio",
-    "path": "common/dex/overlays/istio"
+    "appName": "istio",
+    "appPath": "common/dex/overlays/istio"
 }

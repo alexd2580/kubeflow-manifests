@@ -1,4 +1,4 @@
 {
-    "name": "knative-serving",
-    "path": "common/knative/knative-serving/overlays/gateways"
+    "appName": "knative-serving",
+    "appPath": "common/knative/knative-serving/overlays/gateways"
 }

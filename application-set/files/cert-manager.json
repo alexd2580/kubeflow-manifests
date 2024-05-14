@@ -1,4 +1,4 @@
 {
-    "name": "cert-manager",
-    "path": "common/cert-manager/cert-manager/base"
+    "appName": "cert-manager",
+    "appPath": "common/cert-manager/cert-manager/base"
 }
