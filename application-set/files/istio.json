@@ -1,0 +1,4 @@
+{
+    "name": "istio",
+    "path": "common/dex/overlays/istio"
+}

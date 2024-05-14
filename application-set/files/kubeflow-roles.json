@@ -1,0 +1,4 @@
+{
+    "name": "kubeflow-roles",
+    "path": "common/kubeflow-roles/base"
+}

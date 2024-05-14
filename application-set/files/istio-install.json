@@ -1,0 +1,4 @@
+{
+    "name": "istio-install",
+    "path": "common/istio-1-17/istio-install/base"
+}

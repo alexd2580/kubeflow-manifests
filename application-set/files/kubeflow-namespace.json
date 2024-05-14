@@ -1,0 +1,4 @@
+{
+    "name": "kubeflow-namespace",
+    "path": "common/kubeflow-namespace/base"
+}

@@ -1,0 +1,4 @@
+{
+    "name": "istio-crds",
+    "path": "common/istio-1-17/istio-crds/base"
+}

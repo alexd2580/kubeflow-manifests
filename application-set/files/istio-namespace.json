@@ -1,0 +1,4 @@
+{
+    "name": "istio-namespace",
+    "path": "common/istio-1-17/istio-namespace/base"
+}
