@@ -2,12 +2,13 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: kubeflow-app-of-apps
+  namespace: argocd
 spec:
   destination:
     name: in-cluster
     namespace: argocd
   source:
-    path: apps
+    path: app-of-apps/apps
     repoURL: https://github.com/alexd2580/kubeflow-manifests.git
     targetRevision: HEAD
   project: default
