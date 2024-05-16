@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: central-dashboard
+  namespace: argocd
+  finalizers:
+  - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: argocd
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    path: apps/centraldashboard/upstream/overlays/oauth2-proxy
+    repoURL: https://github.com/alexd2580/kubeflow-manifests.git
+    targetRevision: v1.8.1
