@@ -1,7 +1,8 @@
+
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: kserve-central-dashboard
+  name: admission-webhook
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
@@ -11,6 +12,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: apps/centraldashboard/upstream/overlays/kserve
+    path: apps/admission-webhook/upstream/overlays/cert-manager
     repoURL: https://github.com/alexd2580/kubeflow-manifests.git
     targetRevision: v1.8.1

@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: kserve-central-dashboard
+  name: kubeflow-overlay
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
@@ -11,6 +11,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: apps/centraldashboard/upstream/overlays/kserve
+    path: contrib/kserve/models-web-app/overlays/kubeflow
     repoURL: https://github.com/alexd2580/kubeflow-manifests.git
     targetRevision: v1.8.1
