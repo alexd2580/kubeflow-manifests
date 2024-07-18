@@ -17,3 +17,10 @@ spec:
     automated:
       prune: true
       selfHeal: true
+  ignoreDifferences:
+  - group: apps
+    kind: ClusterRole
+    name: kubeflow-training-admin
+    namespace: default
+    jsonPointers:
+    - /rules
