@@ -13,3 +13,7 @@ spec:
     path: apps/jupyter/notebook-controller/upstream/overlays/kubeflow
     repoURL: https://github.com/alexd2580/kubeflow-manifests.git
     targetRevision: v1.8.1
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true

@@ -13,3 +13,7 @@ spec:
     path: common/istio-1-17/istio-namespace/base
     repoURL: https://github.com/alexd2580/kubeflow-manifests.git
     targetRevision: v1.8.1
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
